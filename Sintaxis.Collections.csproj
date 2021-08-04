@@ -4,4 +4,10 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Remove="Sintaxis.Test\**" />
+    <EmbeddedResource Remove="Sintaxis.Test\**" />
+    <None Remove="Sintaxis.Test\**" />
+  </ItemGroup>
+
 </Project>
